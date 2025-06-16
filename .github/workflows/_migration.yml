@@ -12,4 +12,4 @@ jobs:
       - name: friends-data-migration
         uses: xaoxuu/friends-data-migration@main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }} # Leave this as is, it's automatically generated
